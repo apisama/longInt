@@ -1,0 +1,20 @@
+Changes for part 2:
+>FIxed greater and less than methods from part1.
+
+>LongIntADT::over_flow() now does what it was supposed to do.
+
+>Added addition, subtraction and multiplication methods
+along with the respective operators for it.
+
+>Added a copy constructor, assignment operator
+ and destructor to LongINtADT.
+
+>Added helper function longABS to find the absolute value of a long integer 
+(see LongIntADT.h for details)
+
+>Added helper function sanitize() to remove leading zeroes.
+It is used in case of object creation to make sure no leftover zeroes 
+are present.
+>Added power method and corresponding operator
+
+>Added division and helper function extract_int_left().
